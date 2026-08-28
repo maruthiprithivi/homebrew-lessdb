@@ -6,14 +6,14 @@ class Lessdb < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/maruthiprithivi/lessdb/releases/download/v0.1.0/lessdb-v0.1.0-aarch64-apple-darwin.tar.gz"
+      url "https://lessdb.pages.dev/dl/lessdb-v0.1.0-aarch64-apple-darwin.tar.gz"
       sha256 "bc307f0ebe2cee1775e8a6382f507ae6fb8df4eaf14d8ac75f4f3780f11cc5d0"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/maruthiprithivi/lessdb/releases/download/v0.1.0/lessdb-v0.1.0-x86_64-unknown-linux-gnu.tar.gz"
+      url "https://lessdb.pages.dev/dl/lessdb-v0.1.0-x86_64-unknown-linux-gnu.tar.gz"
       sha256 "cc2b32f9fbd187181ee599292d1430e260893cf19b0c86b4d5733e34b70c2a30"
     end
   end

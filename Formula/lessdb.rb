@@ -19,7 +19,7 @@ class Lessdb < Formula
   end
 
   def install
-    bin.install Dir["lessdb-*/less"]
+    bin.install "less"
   end
 
   def caveats

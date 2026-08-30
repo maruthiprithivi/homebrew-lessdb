@@ -1,20 +1,20 @@
 class Lessdb < Formula
   desc "One database for agents and humans — SQL + MCP in one binary"
   homepage "https://lessdb.dev"
-  version "0.2.0"
+  version "0.3.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://lessdb.pages.dev/dl/lessdb-v0.2.0-aarch64-apple-darwin.tar.gz?v=491224a4f3a7"
-      sha256 "491224a4f3a789307b1c43af7a39da7582a2b22e364f321c72b56c2d8b10f712"
+      url "https://lessdb.pages.dev/dl/lessdb-v0.3.0-aarch64-apple-darwin.tar.gz?v=f6c1ef15f766"
+      sha256 "f6c1ef15f766c716c11b1301b933f018cfb0128a92c631abdb463d8be287faf0"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://lessdb.pages.dev/dl/lessdb-v0.2.0-x86_64-unknown-linux-gnu.tar.gz?v=aae0d5712266"
-      sha256 "aae0d57122660370217750f859130f0ad8934ffa4c651f5fdb9b0d4a1138b2bc"
+      url "https://lessdb.pages.dev/dl/lessdb-v0.3.0-x86_64-unknown-linux-gnu.tar.gz?v=bd51464763e0"
+      sha256 "bd51464763e07548e0c7ea348cfaaee9c67d6bde28cd995a746ca9b31792debb"
     end
   end
 
